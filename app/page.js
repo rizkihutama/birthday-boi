@@ -14,7 +14,7 @@ export default function Home() {
   const year = currDate.getFullYear();
   const [stateYear, setStateYear] = useState(year);
   const [countDown, setCountDown] = useState(
-    new Date(`${year}-05-17 23:45:00`)
+    new Date(`${year}-05-20 00:00:00`)
   );
 
   const [showCountDown, setShowCountDown] = useState({

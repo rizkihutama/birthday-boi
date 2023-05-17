@@ -3,11 +3,6 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-export const metadata = {
-  title: 'Hello World',
-  description: 'Birthday Boi',
-};
-
 export default function Home() {
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [currDate, setCurrDate] = useState(new Date());
